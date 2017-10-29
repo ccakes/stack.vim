@@ -1,0 +1,24 @@
+*stack.vim* Plugin for auto-managing a window split layout based on term dimensions
+
+Author: Cameron Daniel <http://github.com/ccakes>
+License: Same terms as Vim (see |license|)
+
+INTRODUCTION						*stack*
+
+This plugin provides a simple but efficient auto-window layout that adjusts
+to your session dimensions (terminal or window) and updates as you add/remove
+your splits.
+
+I tended to find myself always needing to fiddle with split sizing after
+creating new windows. This looks at the available real estate and attempts to
+make intelligent decisions for you. It's based heavily on dwm.vim and more
+traditional tiling window managers.
+
+MAPPINGS						*stack-mappings*
+
+<C-n>		Create new split
+<C-c>		Close current window (unless last)
+<C-l>		Switch current window with master
+
+
+ vim:tw=78:ts=8:ft=help:norl:noet:
