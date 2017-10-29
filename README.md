@@ -67,8 +67,8 @@ Keys | Command
 
 ## TODO
 
-- [  ] Add a columns layout for larger terminal sizes
-- [  ] Expand [help text](/doc/stack.txt)
+- [ ] Add a columns layout for larger terminal sizes
+- [ ] Expand [help text](/doc/stack.txt)
 
 ## License
 
